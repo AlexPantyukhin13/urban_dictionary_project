@@ -1,6 +1,5 @@
 import urbandictionary as ud
 import random
-
 import telebot
 
 bot_key = "741204635:AAFFVeaEgn53bWGTndZuJPTMjXxu-SLbSpk"
