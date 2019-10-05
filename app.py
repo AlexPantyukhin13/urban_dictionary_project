@@ -1,8 +1,9 @@
 import urbandictionary as ud
 import random
 import telebot
+import os
 
-bot_key = "741204635:AAFFVeaEgn53bWGTndZuJPTMjXxu-SLbSpk"
+bot_key = os.getenv("BOT_KEY")
 chat_id = "-1001378894764"
 
 bot = telebot.TeleBot(bot_key)
