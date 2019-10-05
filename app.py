@@ -17,6 +17,7 @@ def get_random_definition():
 def send_message(chat_id, text):
     bot.send_message(chat_id, text)
 
+
 def app():
     send_message(chat_id=chat_id, text=get_random_definition())
 
