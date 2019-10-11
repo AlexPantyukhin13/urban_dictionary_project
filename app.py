@@ -12,6 +12,8 @@ bot = telebot.TeleBot(bot_key)
 def get_random_definition():
     random_definitions = ud.random()
     one_definition = random.choice(random_definitions)
+    one_definition.definition.replace("[", "")
+    one_definition.definition.replace("]", "")
     return f"{one_definition.word.upper()}: {one_definition.definition}"
 
 
