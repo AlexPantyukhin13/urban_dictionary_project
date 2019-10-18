@@ -13,7 +13,7 @@ def get_random_definition():
     random_definitions = ud.random()
     one_definition = random.choice(random_definitions)
     formatted_text = one_definition.definition.replace("[", "")
-    formatted_text = formatted_text.definition.replace("]", "")
+    formatted_text = formatted_text.replace("]", "")
     return f"{one_definition.word.upper()}: {formatted_text}"
 
 
